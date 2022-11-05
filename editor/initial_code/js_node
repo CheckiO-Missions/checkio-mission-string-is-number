@@ -1,16 +1,17 @@
 import assert from "assert";
 
-function sumTwo(a: number, b: number): number {
+function isNumber(value: string): boolean {
     // your code here
-    return 0;
+    return False;
 }
 
 console.log('Example:');
-console.log(sumTwo(3, 2));
+console.log(isNumber("df"));
+console.log(isNumber("34"));
+
 
 // These "asserts" are used for self-checking
-assert.equal(sumTwo(3, 2), 5);
-assert.equal(sumTwo(5, 7), 12);
+assert.equal(isNumber("df"), false);
+assert.equal(isNumber("34"), true);
 
 console.log("Coding complete? Click 'Check' to earn cool rewards!");
-    
