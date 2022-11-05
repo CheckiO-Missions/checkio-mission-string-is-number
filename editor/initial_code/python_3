@@ -1,0 +1,14 @@
+def is_number(val: str) -> bool:
+    # your code here
+    return False
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(is_number("df"))
+    print(is_number("34"))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert is_number("df") == False
+    assert is_number("34") == True
+    print("Coding complete? Click 'Check' to earn cool rewards!")
