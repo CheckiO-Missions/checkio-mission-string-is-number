@@ -1,52 +1,42 @@
 <!-- Describe task in general -->
 
 <p>
-    Check if the input string is a number
+    You are given a string. Your function should return {% if is_js %}true{% else %}True{% endif %} if the string is a valid number (contains digits only), otherwise - {% if is_js %}false{% else %}False{% endif %}. Look at the example.
 </p>
 
 <p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 100px"/>
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input: </strong> A string.
+    <strong>Input:</strong> A string.
 </p>
 
 <p>
-    <strong>Output: </strong> A bool. 
+    <strong>Output:</strong> A boolean. 
 </p>
 
 
 <!-- Give some usage examples -->
 <div class="for_info_only">
     <p>
-        <strong>Example:</strong>
+        <strong>Examples:</strong>
     </p>
-
-{% if is_js %}
-<pre class="brush: javascript">isNumber("df") == false
-isNumber("34") == true
-</pre>
-{% else %}
-<pre class="brush: python">is_number("df") == False
-is_number("34") == True
-</pre>
-{% endif %}
+    <pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
 </div>
 
 
 <!-- Here you can explain how it can be used in development -->
 <!-- The section is optional -->
 <p class="for_info_only">
-
-    <strong>How it’s used: </strong>
-    <i>(For checking values that must contain only digits)</i>
+    <strong>How it’s used:</strong>
+    <i>For checking string values that must contain only digits.</i>
 </p>
 
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
 <p>
     <strong>Precondition:</strong>
-    <i>The text can contain letters and digits.</i>
+    <i>The text contains only letters, digits and whitespace.</i>
 </p>
