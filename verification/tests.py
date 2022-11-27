@@ -26,6 +26,14 @@ TESTS = {
             "input": ["ITS A NUMBER"],
             "answer": False,
         },
+        {
+            "input": ["5a"],
+            "answer": False,
+        },
+        {
+            "input": ["a5"],
+            "answer": False,
+        },
     ],
     "Extra": [
         {
