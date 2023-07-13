@@ -1,0 +1,42 @@
+<!-- Describe task in general -->
+
+<p>
+    Otrzymują Państwo ciąg znaków. Państwa funkcja powinna zwrócić {% if is_js %}<b class="code">true</b> {% else %} <b class="code">True</b> {% endif %} jeśli ciąg jest poprawną liczbą (zawiera tylko cyfry), w przeciwnym razie - {% if is_js %}<b class="code">false</b> {% else %} <b class="code">False</b> {% endif %}. Proszę spojrzeć na przykład.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 100px"/>
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Wejście:</strong> Ciąg znaków.
+</p>
+
+<p>
+   <strong>Wyjście:</strong> Wartość logiczna. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Przykłady:</strong>
+    </p>
+    <pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>Sposób użycia:</strong>
+    <i>Do sprawdzania wartości łańcuchowych, które muszą zawierać tylko cyfry.</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Warunek wstępny:</strong>
+    <i>Tekst zawiera tylko litery, cyfry i białe znaki.</i>
+</p>
